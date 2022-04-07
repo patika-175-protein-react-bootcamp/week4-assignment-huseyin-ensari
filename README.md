@@ -4,6 +4,8 @@
 
 ---
 
+[Click for the live version of the project.](https://react-multiply-games-huseyin.netlify.app/)
+
 Multiplication is more fun now.
 A game made with React.
 10 multiplication questions are asked.
