@@ -1,0 +1,22 @@
+.container__relative{
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    z-index: 5;
+}
+
+.container__relative:hover svg:hover{
+    fill: red;
+    transition: .5s ;
+}
+
+.align__center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -2;
+}

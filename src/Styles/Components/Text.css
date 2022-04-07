@@ -1,0 +1,52 @@
+.text__white{
+  color: #fff;
+}
+
+.text__title{
+  color: #FF0000;
+  /* font-size: 82px; */
+  font-size: 5rem;
+  line-height: 109px;
+}
+
+.text__large{
+  font-size: 4rem;
+}
+
+.text__normal{
+  font-size: 3rem;
+  line-height: 64px;  
+}
+
+.text__xxlarge{
+  font-size: 8rem;
+  line-height: 171px;
+}
+
+.text__xlarge{
+  font-size: 5.5rem;
+  line-height: 120px;
+}
+
+.text__small{
+  font-size: 2.3rem;
+  line-height: 69px;
+}
+
+@media screen and (max-width: 1510px) and (min-width: 1024px) {
+  .text__small{
+  font-size: 2rem;
+  }
+  .text__large{
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1000px) {
+  .text__small{
+  font-size: 1.5rem;
+  }
+  .text__large{
+    font-size: 3rem;
+  }
+}

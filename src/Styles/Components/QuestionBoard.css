@@ -1,0 +1,9 @@
+#board{
+    position: relative;
+}
+
+#question{
+    position: absolute;
+    top: 23%;
+    left: 13%;
+}

@@ -1,0 +1,35 @@
+#final__page{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#final__page .column{
+    width: 40%;
+    padding: 2rem 5%;
+    height: 70%;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#final__column{
+    gap: 3rem;
+}
+
+#question__map{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+}
+
+#final__container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
